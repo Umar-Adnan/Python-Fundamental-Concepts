@@ -9,6 +9,8 @@ for i in range(1, 101, 2):
     print(i)
 
 # This program prints the multiples of 3 from 0 to 100 using a for loop
-print("Multiples of 3 from 0 to 100:")
+print("Multiples of 3 from 0 to 100(excluding 21):")
 for i in range(0,101,3):
+    if i == 21:
+        continue
     print(i)
