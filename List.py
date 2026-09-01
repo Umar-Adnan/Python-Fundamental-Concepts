@@ -1,3 +1,7 @@
+#List in Python
+#List is a collection of items in a particular order.
+#It is mutable, meaning you can change its content without changing its identity.
+#Lists are defined by having values between square brackets [ ].
 marks = [95, 68.2, 58.99, "A"]
 print(marks, type(marks)) #prints the entire list and it's type
 print(marks[0]) #prints first element of the list
@@ -35,3 +39,5 @@ print(marks.count(95)) #counts the number of times 95 is present in the list
 print(marks.index(98)) #prints the index of 98 in the list
 print(marks.pop()) #removes and returns the last element of the list
 print(marks) #prints the list after removing the last element
+print(max(marks)) #prints the maximum element of the list
+print(min(marks)) #prints the minimum element of the list
